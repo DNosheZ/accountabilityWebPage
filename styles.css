@@ -1,0 +1,20 @@
+body{
+    
+    text-align: center;
+}
+.horizontal-list{
+    list-style-type:none;
+    text-decoration: none;
+}
+.ignite-buttons{
+    align-items: center;
+}
+#init{
+    display: block;
+}
+#register{
+    display: none;
+}
+#login{
+    display: none;
+}

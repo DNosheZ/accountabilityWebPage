@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Personal accountability</title>
+</head>
+<body>
+    <main>
+        <div id="init">
+            <h1>Bienvenido a tu app de contabilidad personal</h1>
+            <ul>
+                <li class="horizontal-list">
+                   <button class="ignite-buttons"  onclick="redirectTo('init','register')">
+                        Registrarse
+                    </button>
+                </li>
+                <li class="horizontal-list">
+                    <button class="ignite-buttons"  onclick="redirectTo('init','login')">
+                        Iniciar sesion
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div id="register">
+            <h1>Registro</h1>
+            <h2>Registrate para empezar a facilitar tus finanzas personales/empresariales</h2>
+            <form>
+
+            </form>
+            <span id="spanRegister"></span>
+            <button class="ignite-buttons" onclick="">Registrame</button>
+            <button class="ignite-buttons"  onclick="redirectTo('register','init')">Volver</button>
+        </div>
+        <div id="login">
+            <h1>Ingreso</h1>
+            <h2>Ingresa para continuar gestionando tus finanzas o las de tu empresa</h2>
+            <form>
+
+            </form>
+            <span id="spanLogin"></span>
+            <button class="ignite-buttons" onclick="login()">Ingresar</button>
+            <button class="init-buttons"  onclick="redirectTo('login','init')">Volver</button>
+        </div>
+    </main>
+    <footer>
+        <div id="disclaimer">
+            <h4>Derechos reservados por Projects by ADZ</h4>
+        </div>
+        <div id="contact-center">
+            <ul>
+                <li class="horizontal-list"></li>
+                <li class="horizontal-list"></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
